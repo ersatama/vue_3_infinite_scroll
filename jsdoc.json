@@ -1,0 +1,13 @@
+{
+  "source": {
+    "include": ["src"],
+    "includePattern": "\\.(vue|js)$"
+  },
+  "destination": "./docs",
+  "tags": {
+    "allowUnknownTags": true
+  },
+  "plugins": [
+    "node_modules/jsdoc-vuejs"
+  ]
+}
